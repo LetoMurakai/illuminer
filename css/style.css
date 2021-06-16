@@ -1,0 +1,151 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/bg-dotted.jpg);
+}
+
+.bg-aluno1{
+    border-radius: 15px 0 0 15px;
+    border: 5px solid rgb(110, 255, 199);
+    background-image: url(../img/alunos.jpg);
+    background-repeat: no-repeat;
+    background-size: 732px;
+    height: 26em;
+    transition: background 0.4s;
+}
+.bg-aluno1:hover{
+    border: 6px solid rgb(110, 255, 199);
+    box-shadow: 5px 5px 30px rgb(110, 255, 199);
+    background-color: rgb(110, 255, 199);
+    background-size: 745px;
+    transition: background 0.4s;
+}
+.bg-prof1{
+    border-radius: 0 15px 15px 0;
+    border: 5px solid rgb(252, 252, 61);
+    background-image: url(../img/professor.jpg);
+    background-repeat: no-repeat;
+    background-size: 732px;
+    height: 26em;
+    transition: background 0.4s;
+}
+.bg-prof1:hover{
+    border: 6px solid rgb(252, 252, 61);
+    box-shadow: 5px 5px 30px rgb(252, 252, 61);   
+    background-color: rgb(252, 252, 61);
+    background-size: 745px;
+    transition: background 0.4s;
+}
+
+#bg-login{
+    background-image: url(../img/illuminer.jpg);
+    background-size: 725px;
+    height: 626px;
+    scroll-behavior: none;
+}
+
+.anim-luz{
+   border-radius: 500px;
+   animation-name: luz;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+@keyframes luz{
+    0% {background: rgb(240, 216, 3); border-radius: 450px 400px; transition: background 0.1s;}
+    25% {background: rgb(240, 216, 3); border-radius: 500px 600px; transition: background 0.1s;}
+    50% {background:rgb(110, 255, 199) ; border-radius: 600px 500px; transition: background 0.1s;}
+    75% {background:rgb(240, 216, 3) ; border-radius: 500px 600px; transition: background 0.1s;}
+    100% {background: rgb(110, 255, 199); border-radius: 600px 500px; transition: background 0.1s;}
+}
+/**************Botões**************/
+.btn-custom{
+    color: white;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.5s,color 0.4s;
+    padding: 10px 15px;
+}
+
+.btn-amarelo{
+    padding: 10px 80px;
+    background: rgb(252, 252, 61);
+}
+.btn-amarelo:hover{
+    background: rgb(255, 232, 29);
+}
+
+.btn-sprencimento{
+    border:3px solid rgb(252, 252, 61);
+    padding: 10px 30px;
+}
+.btn-sprencimento:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.11);
+    border:3px solid rgb(252, 207, 61);
+}
+
+.btn-azul{
+    background-color: rgb(110, 255, 199);
+    padding: 10px 30px;
+}
+.btn-azul:hover{
+    color: white;
+    background-color: rgb(1, 156, 156);
+}
+
+.btn-roxo{
+    color: white;
+    background-color: rgb(202, 153, 153);
+}
+.btn-roxo:hover{
+    color: white;
+    background-color: rgb(199, 145, 145);
+}
+
+/**************Textos**************/
+.marcador{
+    border: 1px solid red;
+}
+
+.texto{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-style: oblique;
+    text-shadow: 2px 3px 20px rgb(0, 0, 0);
+}
+.p-custom{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    text-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+
+/**************Margin e padding custom**************/
+.my-10{
+    margin-top: 264px;
+}
+
+/**************formulario**************/
+.form-control{
+    border-radius: 15rem;
+    padding: 10px 22px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.img-nav{
+    border-radius: 120px;
+    width: 45px;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.icons{
+    font-size: 23em;
+}
